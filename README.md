@@ -42,3 +42,17 @@ To create the slides, use `make slides`.
 ## You might also like
 
 Looking for further reproducible research inspiration? Check out this [worked example](https://github.com/aeturrell/example-reproducible-research) of a reproducible research project.
+
+## Top tips
+
+For Quarto documents (paper and slides), the root is the project root. To properly reference markdown images in another folder using project root, begin with a forward slash, eg:
+
+```markdown
+![](/outputs/missingness.svg)
+```
+
+or, for latex
+
+```markdown
+{{< include /outputs/equation.tex >}}
+```
