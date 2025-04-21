@@ -35,8 +35,8 @@ keywords:
   - cookies
   - wikipedia
   - skydiving
-bibliography: ../references/references.bib
-csl: ../references/chicago-author-date.csl
+bibliography: references/references.bib
+csl: references/chicago-author-date.csl
 link-citations: true
 execute:
   echo: false
@@ -77,7 +77,7 @@ To include latex tables, just enclose `python` in the below with curly brackets.
 #| echo: false
 #| tbl-pos: H
 
-with open(Path("../outputs/table_one.tex"), "r") as f:
+with open(Path("outputs/table_one.tex"), "r") as f:
     tab_one = f.read()
 
 print(tab_one)
@@ -122,7 +122,7 @@ This paper was prepared using Quarto and Python {{ cookiecutter.python_version_n
 #| tbl-pos: h
 
 
-with open(Path("../pyproject.toml"), "rb") as f:
+with open(Path("pyproject.toml"), "rb") as f:
     packages_toml = tomli.load(f)
 
 pkg_df = pd.DataFrame(packages_toml["project"]["dependencies"])

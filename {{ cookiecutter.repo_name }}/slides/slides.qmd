@@ -19,8 +19,8 @@ author:
     affiliations:
       - name: "{{ cookiecutter.affiliation }}"
 date: today
-bibliography: ../references/references.bib
-csl: ../references/chicago-author-date.csl
+bibliography: references/references.bib
+csl: references/chicago-author-date.csl
 execute:
   echo: true
 jupyter: python3
@@ -65,7 +65,7 @@ one
 ## What code can do
 
 Uncomment the below to include a figure.
-<!-- ![This is a figure caption](../outputs/figure.pdf) -->
+<!-- ![This is a figure caption](outputs/figure.pdf) -->
 
 # Basics of Coding {background-color="#40666e" transition="fade-in fade-out"}
 
