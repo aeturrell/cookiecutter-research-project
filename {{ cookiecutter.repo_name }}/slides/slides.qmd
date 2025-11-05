@@ -19,8 +19,6 @@ author:
     affiliations:
       - name: "{{ cookiecutter.affiliation }}"
 date: today
-bibliography: references/references.bib
-csl: references/chicago-author-date.csl
 execute:
   echo: true
 jupyter: python3
