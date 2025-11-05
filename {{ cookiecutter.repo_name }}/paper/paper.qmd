@@ -35,8 +35,6 @@ keywords:
   - cookies
   - wikipedia
   - skydiving
-bibliography: references/references.bib
-csl: references/chicago-author-date.csl
 link-citations: true
 execute:
   echo: false
