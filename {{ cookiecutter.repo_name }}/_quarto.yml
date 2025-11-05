@@ -1,2 +1,5 @@
 project:
   execute-dir: project
+
+bibliography: references/references.bib
+csl: references/chicago-author-date.csl
